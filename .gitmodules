@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Trxyzng37/reddit_backend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Trxyzng37/reddit_frontend.git

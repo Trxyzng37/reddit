@@ -33,13 +33,17 @@ The website has the following functions:
 *Post*: post is a piece of content that is submitted to the website. A post can be text, image, video or link. post can be created and submitted to a community by any user.
 
 ## 4. Build and run the application locally
-You can run the application by using Docker and Docker compse. Simply follow the below steps:
+You can run the application locally by using Docker and Docker compse. Simply follow the below steps:
 
 1. Clone the repository: `https://github.com/Trxyzng37/reddit.git`
 
 2. Go to the project's folder and open the command prompt.
 
-3. Run the application using Docker compose: `docker-compose up --build`
+3. Pull the submodules content: `git submodule update --init --recursive`
+
+<!-- 4. Update the submodules content to lastest commit: `git submodule update --remote --merge` -->
+
+4. Run the application using Docker compose: `docker-compose up --build`
 
 The project website will be available at: [http://127.0.0.1:4200](http://127.0.0.1:4200)
 

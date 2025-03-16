@@ -35,13 +35,11 @@ The website has the following functions:
 ## 4. Build and run the application locally
 You can run the application locally by using Docker and Docker compse. Simply follow the below steps:
 
-1. Clone the repository: `https://github.com/Trxyzng37/reddit.git`
+1. Clone this repository: `git clone https://github.com/Trxyzng37/reddit.git`
 
 2. Go to the project's folder and open the command prompt.
 
 3. Pull the submodules content: `git submodule update --init --recursive`
-
-<!-- 4. Update the submodules content to lastest commit: `git submodule update --remote --merge` -->
 
 4. Run the application using Docker compose: `docker-compose up --build`
 
